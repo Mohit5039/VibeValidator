@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# --- FastAPI / Uvicorn ---
+*.db
+*.pid
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Jupyter / Notebooks (just in case) ---
+.ipynb_checkpoints/
+
+# --- Chrome Extension ---
+*.pem   # private keys for extension signing
+extension/node_modules/
+extension/dist/
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
