@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel 
 from .hallucination_checker import check_text
 
+
 app = FastAPI(title="VibeValidator API", version="0.1.0")
 
 class ValidateRequest(BaseModel):
