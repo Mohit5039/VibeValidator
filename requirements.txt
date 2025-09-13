@@ -1,3 +1,9 @@
 fastapi==0.116.1
 uvicorn==0.35.0
 pydantic==2.11.7
+spacy==3.7.0
+# spaCy language models
+en_core_web_sm==3.7.0
+de_core_news_sm==3.7.0
+es_core_news_sm==3.7.0
+xx_ent_wiki_sm==3.7.0  # multilingual (Hindi fallback)

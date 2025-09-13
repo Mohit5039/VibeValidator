@@ -14,6 +14,8 @@ class ValidateResponse(BaseModel):
 @app.get("/")
 def read_root():
     return {"status": "ok", "message": "VibeValidator API is running"}  
+
+
 @app.post("/validate" , response_model=ValidateResponse)
 def validate_text(request: ValidateRequest):
     result = check_text(request.text)
